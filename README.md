@@ -1,6 +1,6 @@
 # BitTorrent Protocol Simulation
 
-<img src="images/bittorrent-overview.png" alt="BitTorrent Diagram" width="600"/>
+<img src="/bittorrent-overview.png" alt="BitTorrent Diagram" width="600"/>
 
 ## Description
 This project simulates a simplified **BitTorrent** protocol using **MPI** for distributed communication and **Pthreads** for concurrency. Multiple **peers** share file segments, coordinate via a **tracker**, and download missing segments from each other in parallel.
